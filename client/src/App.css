@@ -1,0 +1,148 @@
+.verticalCenter {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.userRegsiterForm {
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.sideBarOptions:hover {
+    color: white;
+}
+
+.logo-container {
+    font-size: 1.4rem !important;
+}
+
+.brand-logo {
+    display: none !important;
+}
+
+.paddingTop {
+    padding-top: 1rem !important;
+}
+
+.mainContainer {
+    margin-left: 20rem;
+    margin-bottom: 5rem;
+}
+
+.accountCard {
+    padding: 1rem 1rem 0 1rem;
+    width: 20rem;
+    height: 10rem;
+}
+
+.logoutBtn {
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.page-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1.5rem;
+}
+
+.cLeft {
+    clear: left;
+}
+
+.select-wrapper {
+    width: 100% !important;
+}
+
+.birthLabel {
+    margin-top: 1rem !important;
+}
+
+.contactInput {
+    margin-top: 2.5rem;
+}
+
+.labelName {
+    font-size: 1em;
+}
+
+.loginRegImage {
+    height: 100%;
+}
+
+.errorAuthRegister {
+    border: 1px solid #59d966;
+    padding: 0.4rem;
+    background-color: #adedb4;
+    margin-bottom: 1rem;
+}
+
+.userTypeSelect {
+    margin-top: 1rem !important;
+}
+
+.mr {
+    margin-right: 1rem !important;
+}
+
+.contactIcon {
+    margin-left: 35%;
+}
+
+.listIcon {
+    margin-top: 0.7rem;
+}
+
+.deleteIcon {
+    position: absolute;
+    transform: translate(70px, -65px);
+}
+
+.deleteIcon:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-height: 1000px) {
+    .userRegsiterForm {
+        margin-top: 20rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .brand-logo {
+        display: block !important;
+    }
+
+    .iLeft {
+        float: left;
+    }
+
+    .loginRegImage {
+        height: auto;
+    }
+
+    .userRegsiterForm {
+        margin-top: 13rem;
+        padding-bottom: 5rem;
+    }
+
+    .mainContainer {
+        margin-left: 0;
+    }
+
+    .formFlex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerContent {
+        margin-left: 0 !important;
+    }
+
+    .titlePadding {
+        padding: 2rem 0;
+    }
+}
