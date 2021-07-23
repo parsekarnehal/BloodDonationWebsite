@@ -4,18 +4,14 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "client-install": "npm install --prefix client",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js",
-        "server": "nodemon server.js",
-        "client": "npm start --prefix client",
-        "dev": "concurrently \"npm run server\" \"npm run client\""
+        "start": "node server.js"
     },
     "author": "Nehal",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",
-        "concurrently": "^5.3.0",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
         "express": "^4.17.1",
         "mysql2": "^2.2.5",
         "sequelize": "^6.5.0"

@@ -156,7 +156,7 @@ module.exports.getAuthoritiesList = (id) => {
                         if (data.length === 0) {
                             Authority.findAll({
                                 where: {
-                                    authorityTaluke: personTaluka,
+                                    authorityTaluka: personTaluka,
                                 },
                             })
                                 .then((data) => {
